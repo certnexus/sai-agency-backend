@@ -1,0 +1,23 @@
+{
+  "name": "gram-panchayat-tax-backend",
+  "version": "1.0.0",
+  "description": "Gram Panchayat Tax Management System - Backend API",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.5.2",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.15.1",
+    "xlsx": "^0.18.5"
+  }
+}
